@@ -1,0 +1,36 @@
+.table {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin-left: 20px;
+    width: 400px;
+    color: #000;
+}
+
+.tHead {
+    color: #fff;
+    background-color: #3a3a3a;
+}
+
+.tHead th {
+    border: 1px solid #000;
+    width: calc(100% / 3);
+}
+
+.tRow {
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.tRow td {
+    border: 1px solid #000;
+}
+
+.tRow td:first-child {
+    text-transform: capitalize;
+    text-align: start;
+    padding-left: 20px;
+}
+
+.tRow:nth-child(even) {
+    background-color: #b8b7b7;
+}
